@@ -167,7 +167,7 @@ CSS for base styles:
 }
 ```
 
-And create location for this blocks as on following pictures:
+And create location for this blocks following instructions:
 
 ### Desktop
   1. 1 block -> 4 elements in a row, all equal width
