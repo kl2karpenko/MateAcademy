@@ -32,7 +32,7 @@ Create location for this blocks following instructions:
   1. 2 block -> 2 elements in a row: all equal width
   1. 3 block -> 3 elements in a row: all equal width
   1. 4 block -> 3 elements in a row: 1 -> 35%, 2 -> 30% and 3 ->35%
-  1. 5 block -> 2 elements in a row, all equal width, centered in center of parent block and last one should be 100% width
+  1. 5 block -> 2 elements in a row, all equal width, the last one should be 100% width
   
 ### From Tablet Portrait to Tablet Landscape
   1. 1 block -> all elements width: 50%
