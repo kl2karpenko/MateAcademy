@@ -40,6 +40,13 @@ Create location for this blocks following instructions:
   1. 3 block -> 1 element in a row, full width
   1. 4 block -> 1 and second: 50% and last element 100% width
   1. 5 block -> 2 elements in a row, 50% width, last one is 100% width
+  
+### From Mobile to Tablet Portrait
+  1. 1 block -> all elements width: 50%
+  1. 2 block -> all elements width: 50%
+  1. 3 block -> 1 element in a row, full width 100% for all
+  1. 4 block -> 1 element in a row, full width 100% for all
+  1. 5 block -> all elements in 100% width
 
 ```
 Using calc for dimensions: 
