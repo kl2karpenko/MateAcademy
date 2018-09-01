@@ -25,7 +25,7 @@ Create location for this blocks following instructions:
   1. 2 block -> 2 elements in a row: all equal width
   1. 3 block -> 3 elements in a row: 1 -> 50%, 2 -> 50% and 3 contain all block
   1. 4 block -> 3 elements in a row: 1 -> 35%, 2 -> 30% and 3 ->35%
-  1. 5 block -> 3 or 2 elements in a row, all equal width, centered in center of parent block  
+  1. 5 block -> 3 or 2 elements in a row, all 33% width, centered in center of parent block  
   
 ### From Tablet Landscape to medium desktop
   1. 1 block -> 2 elements in a row: all equal width, so it will have 2 rows width: 50%
