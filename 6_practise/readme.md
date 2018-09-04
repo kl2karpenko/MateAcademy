@@ -1,10 +1,6 @@
 ## Practise:
 
-Using image: practise.png follow the instructions
-
-### 1. Create the following layout using CSS Grid system
-### 2. Create the following layout using FlexBoxes
-
+Create the following layout as on image practise.png and follow the instructions
 
 ```
   Rules:
@@ -15,3 +11,7 @@ Using image: practise.png follow the instructions
     5. Navogation bar should take 35% width of top menu and height: 450px
     6. Footer should take all the free space under the News feed and list, and have 150px height
 ```
+
+### 1. Create the following layout using CSS Grid system
+### 2. Create the following layout using FlexBoxes
+
