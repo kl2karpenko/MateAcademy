@@ -8,7 +8,7 @@
 
 #### 2. Create 6 boxes, every time when I hover on the box, it should open it's cover on the top should open, smoothly and beautifully, and something should come up from the box (like letter, rabbit or anything you want)
 
-#### 3. Create clock, with a seconds arrow going around the clock as it should be, the pur arrow will be static. Count the step of animation and roattion right
+#### 3. Create clock, with a seconds arrow going around the clock as it should be, the our arrow will be static. Count the step of animation and roattion right
 
 #### 4. Create a modal window that opens after 4 seconds page loaded, and closes after 5s delay.
 
