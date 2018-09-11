@@ -10,6 +10,6 @@
 
 #### 3. Create clock, with a seconds arrow going around the clock as it should be, the our arrow will be static. Count the step of animation and roattion right
 
-#### 4. Create a modal window that opens after 4 seconds page loaded, and closes after 5s delay.
+#### 4. Create a modal window that opens after 4 seconds page loaded, and closes after 5s delay. Animations for modal window: https://mate-academy.github.io/fe-program/lesson_9_homework.html
 
 #### 5. Create new page. Add 1 button in the middle of the page. Create a modal window that opens on hover on this button with 0.5s delay. (modal window should look like modal window) After showing, it closes after 3s delay.
