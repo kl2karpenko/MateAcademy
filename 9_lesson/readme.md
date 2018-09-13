@@ -13,7 +13,7 @@
 1. Create an infinite loader using SVG by 2 methods: CSS animation and SVG animation as here https://cdn.cssauthor.com/wp-content/uploads/2018/06/Loader-Flash-of-Light.gif
 1. Create a page, with a svg rectangle and some image in center, align it to the center of the page and make rectangle and image responsive on every page breaikpoint
     - 1800px and higher - 800/400
-    - 1200px to 800px - 600/300
+    - 1200px to 1800px - 600/300
     - 960px to 1200px - 500/250
     - 768px to 960px - 400/200
     - 320px to 768px - 250/150
