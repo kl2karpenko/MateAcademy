@@ -4,7 +4,7 @@
 
 1. Create a line, width 300px, 1px height green color
 1. Create a blue circle, 250 х 250 with a border: 1px solid
-1. Create a cross 300 х 300 using lines (black) red
+1. Create a cross 300 х 300 using lines (black) red, stroke width: 3px
 1. Create a transparent elips 400 х 200 with yellow dashed border with 4 px with of every dash
 
 #### Adding svg to document:
