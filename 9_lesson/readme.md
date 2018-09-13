@@ -17,6 +17,6 @@
     - 960px to 1200px - 500/250
     - 768px to 960px - 400/200
     - 320px to 768px - 250/150
- 1. Create 2 buttons using only svg (lines, text maybe poligones) and make for it an animation effect like here https://codemyui.com/wp-content/uploads/2018/03/simple-ghost-button-animation.gif
+ 1. Create 2 buttons using only svg (lines, text maybe polylines) and make for it an animation effect like here https://codemyui.com/wp-content/uploads/2018/03/simple-ghost-button-animation.gif
  1. Create exacly the same as here using SVG https://cdn-images-1.medium.com/max/1600/1*T480KKPWmIDxDD1KXPc-mQ.gif
  1. Create a humburger and a closing button in one like in this example using SVG https://cdn.dribbble.com/users/410304/screenshots/2038995/hamburger2.gif
