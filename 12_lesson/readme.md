@@ -46,9 +46,10 @@ countBlocks - 5;
 6. Create messenger as this one https://raw.githubusercontent.com/FLCreative/ng2-toastr/HEAD/toastr-examples.jpg?raw=true with 5 styles (success, error, info, warning and default) using SASS **maps** and **@each** directives. Every style has it's own styles for **background, color, text-color, icon status**
 7. Using @for directive in SASS create a document with 20 stairs (eg: https://maxcdn.icons8.com/Share/google/s/stairs.png), where every stair bigger on 15px then previous one
 8. Using SASS cycles (while or for) create a table with 15 rows, where every odd row will be blue, every even yellow, every 5 row: black and every 8 block - green.
+9. Create buttons using Mapping and cycles (for or while) in SASS with 5 types: "success, warning, info, default and error" and each with different sizes: "small, iddle and big"
 
 ## Create a project using BEM technologies:
 
-TODO: what project to create?
+Create a login and registration https://nayvii.com/wp-content/uploads/2018/07/web-site-login-and-registration-form-free-psd-design-download-ux-tem-ui-inspiration-examples-studio-in-bootstrap-html-element-best-practices-css-672x622.jpg
 
 
