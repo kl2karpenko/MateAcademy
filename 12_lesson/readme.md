@@ -1,4 +1,6 @@
-## Using SASS please create folowing CSS rules:
+## Practise
+
+# Using SASS please create folowing CSS rules:
 
 1. Create a file with variables:
 
@@ -48,7 +50,8 @@ countBlocks - 5;
 8. Using SASS cycles (while or for) create a table with 15 rows, where every odd row will be blue, every even yellow, every 5 row: black and every 8 block - green.
 9. Create buttons using Mapping and cycles (for or while) in SASS with 5 types: "success, warning, info, default and error" and each with different sizes: "small, iddle and big"
 
-## Create a project using BEM:
+## Homework
+# Create a project using BEM:
 
 Create a login and registration https://nayvii.com/wp-content/uploads/2018/07/web-site-login-and-registration-form-free-psd-design-download-ux-tem-ui-inspiration-examples-studio-in-bootstrap-html-element-best-practices-css-672x622.jpg
 
