@@ -3,7 +3,7 @@
 ## Landscapes
 
 ```
-1. Define variable that define different screen sizes, please you namings that correctly show what screens they are describing
+1. Use the following values:
   - large desktop: 1800px
   - medium desktop: 1200px
   - Tablet Landscape: 960px
