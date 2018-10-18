@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .child {
+            position: relative;
+            background: #56f;
+        }
+
+        .child--square {
+            padding-top: 100%;
+        }
+
+        .header {
+            display: grid;
+            grid-template-columns: repeat(24, 1fr);
+            grid-gap: 5px;
+        }
+
+        .child .content {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .header .child:nth-child(1) {
+            grid-column: span 18;
+        }
+
+        .header .child:nth-child(2) {
+            grid-column: span 6;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(24, 1fr);
+            grid-gap: 5px;
+            margin-top: 5px;
+        }
+
+        .projects_left {
+            display: grid;
+            grid-template-columns: repeat(24, 1fr);
+            grid-gap: 5px;
+            grid-column: span 18;
+        }
+
+        .projects_left .child:nth-child(1) {
+            grid-column: span 8;
+        }
+
+        .projects_left .child:nth-child(2) {
+            grid-column: span 16;
+        }
+
+        .projects_left .child:nth-child(3) {
+            grid-column: span 6;
+            height: 400px;
+        }
+
+        .projects_left .child:nth-child(4) {
+            grid-column: span 18;
+        }
+
+        .projects_right {
+            display: grid;
+            grid-template-rows: repeat(24, 1fr);
+            grid-gap: 5px;
+            grid-column: span 6;
+        }
+
+        .projects_right .child:nth-child(1) {
+            grid-row: span 6;
+        }
+
+        .projects_right .child:nth-child(2) {
+            grid-row: span 12;
+        }
+
+        .projects_right .child:nth-child(3) {
+            grid-row: span 6;
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="child">
+            <div class="content">1</div>
+        </div>
+
+        <div class="child child--square">
+            <div class="content">2</div>
+        </div>
+    </header>
+
+    <div class="projects">
+        <div class="projects_left">
+            <div class="child child--square">
+                <div class="content">1</div>
+            </div>
+            <div class="child">
+                <div class="content">2</div>
+            </div>
+            <div class="child">
+                <div class="content">3</div>
+            </div>
+            <div class="child">
+                <div class="content">4</div>
+            </div>
+        </div>
+
+        <div class="projects_right">
+            <div class="child">
+                <div class="content">7</div>
+            </div>
+            <div class="child">
+                <div class="content">8</div>
+            </div>
+            <div class="child">
+                <div class="content">9</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
