@@ -7,10 +7,30 @@
         .child {
             position: relative;
             background: #56f;
+            font-size: 25px;
+            color: #fff;
         }
 
         .child--square {
+            position: relative;
             padding-top: 100%;
+        }
+
+        .child--square::after {
+            content: "";
+            display: block;
+            background-color: #fff;
+            width: 142%;
+            height: 2px;
+            left: 0;
+            z-index: 10;
+            box-sizing: border-box;
+            transform: rotate(-45.1deg);
+            transform-origin: 0px 3px;
+        }
+
+        .child--square .content {
+            padding-left: 30px;
         }
 
         .header {
