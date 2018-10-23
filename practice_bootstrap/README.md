@@ -13,7 +13,7 @@ You should implement a form similar to demo https://getbootstrap.com/docs/4.1/ex
 ## Requirements for large screen
   - First element should take 66.7% of container, second - 33.3%. Both should be in one line
   - The third element should take all parent width and be one in line
-  - Last element should take 50% and has offset 20%
+  - Last element should take 50% and has offset 17%
   - Other elements should be placed - 3 elements in one line
 
 ## Requirements for small screen, 
