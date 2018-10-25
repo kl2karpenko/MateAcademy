@@ -19,21 +19,21 @@ function Person(name, age) {
     };
 }
 
-Person.prototype.getAge = function () {
+Person.getAge = function () {
     isContextEqualTo(window); // ??
     return this.age;
 };
 
 var user = new Person("erer", 45);
 
-var getAge = Person.prototype.getAge;
+var getAge = Person.getAge;
 var getName = user.getName;
 
 consoe.log(getAge()); //  в каком контексте вызана функция?
 consoe.log(getName()); //  в каком контексте вызана функция?
 consoe.log(user.getName()); //  в каком контексте вызана функция?
 
-Person.prototype.getAge = function() {
+Person.getAge = function() {
     isContextEqualTo(user); // ??
     return this.name;
 }
