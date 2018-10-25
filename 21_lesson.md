@@ -5,7 +5,7 @@
 
 ```
 function isContextEqualTo(contextLink) {
-   console.log(contextLink === this);
+   console.log(contextLink === window);
 }
 
 function Person(name, age) {
