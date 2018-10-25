@@ -38,6 +38,7 @@ Person.getAge = function() {
     return this.name;
 }
 
+user.getAge = getAge;
 consoe.log(user.getAge()); //  в каком контексте вызана функция?
 ```
 
