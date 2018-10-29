@@ -19,9 +19,10 @@
  
 ### Third level - create the following Gulp tasks:
   - copy all html files, fonts and images from `src` folder to `dist`
+  - create task to clean dist folder on every run
   - concat all CSS files into one and put one css file into `dist` folder
-  - add `autoprefixer` task to your CSS files
-  - optimize images before saving them into `dist` folder
   - run local webserver to serve dist folder
   - watch changes for every particular file type and run appropriate task
+  - add `autoprefixer` task to your CSS files
   - describe all the main tasks in the `npm scripts` section
+  - optimize images before saving them into `dist` folder
