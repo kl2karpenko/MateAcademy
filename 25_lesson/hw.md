@@ -2,7 +2,7 @@
 
 Here is a sample html file with a submit button. Write a JavaScript function to get the value of the href, hreflang, rel, target, and type attributes of the specified link.
 
-```javascript
+```html
 <!DOCTYPE html>  
 <html>
   <head>  
@@ -76,7 +76,7 @@ setTimeout(function () {
 
 Write a JavaScript function to add rows to a table.
 
-```javascript
+```html
 <!DOCTYPE html>  
 <html>
     <head>
