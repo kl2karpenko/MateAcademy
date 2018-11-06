@@ -65,6 +65,13 @@ var warning =
 
 Все теперь вам осталось создать кнопочку и 3 галочки и слепить все это в 1 целое!))
 
-# 3 task
+## 3 task
 
 Create header, that will dissapear on scroll down and schould be visible on scroll up.
+
+
+## 4 task
+
+Create form using Some framework (eg: bootstrap or Material, Semantic)
+Add a login form, using localStorage or Session Storage to save data on submit form by user.
+
