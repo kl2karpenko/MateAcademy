@@ -64,3 +64,7 @@ var warning =
 Теперь в зависимости от того какая галочка отмечена мы будем будем показывать тот или инной попап!
 
 Все теперь вам осталось создать кнопочку и 3 галочки и слепить все это в 1 целое!))
+
+# 3 task
+
+Create header, that will dissapear on scroll down and schould be visible on scroll up.
