@@ -71,3 +71,27 @@ setTimeout(function () {
 ## 10 task
 
 Дан инпут. В него разрешено вводить N символов. При введение текста справа появляется счетчик такого типа - "Осталось ввести 10 символов". После того, как предел достигнут - текст все равно разрешено вводить, только надпись будет типа "Лимит превышен на 10 символов". Вместо 10-ти, конечно же, нужное число.
+
+## 11 task
+
+Write a JavaScript function to add rows to a table.
+
+```
+<!DOCTYPE html>  
+<html>
+    <head>
+        <meta charset=utf-8 />  
+        <title>Insert row in a table - w3resource</title>  
+    </head>
+    <body>  
+        <table id="sampleTable" border="1">  
+        <tr><td>Row1 cell1</td>  
+        <td>Row1 cell2</td></tr>  
+        <tr><td>Row2 cell1</td>  
+        <td>Row2 cell2</td></tr>  
+        </table>
+        
+        <input type="button" onclick="insert_Row()" value="Insert row">   
+    </body>
+</html>  
+```
