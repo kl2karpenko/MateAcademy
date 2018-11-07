@@ -8,4 +8,6 @@ You need to markup card from UI kit - https://zpl.io/Vx1d67k
   4. Also create *_variables.scss* and *_mixins.scss* partials in the *src* folder. Import both of them into *main.scss* file
   5. Create directory *components* in the *src* folder
   6. Create folder *button* and add styles which describe styles for button
-  7. ...
+  7. Add mixins to add 3 dots in the end of line - https://gist.github.com/plapier/4954935
+  8. Add mixins which describes breakpoints - https://css-tricks.com/approaches-media-queries-sass/#article-header-id-3
+  9. ...jade
