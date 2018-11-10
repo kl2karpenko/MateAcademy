@@ -26,6 +26,7 @@ You need to markup card from UI kit - https://zpl.io/Vx1d67k
 ### Level 2
   1. Create mixins which desribes different `box-shadows` - https://zpl.io/VYkEMgp (Create 5 mixins for each level of depth)
   2. Create folder `card` in `src`, and `card.pug` in this directory
+  3.0 Create Card component using BEM notation
   3. Create the pug mixins to support such usage, use BEM declaration for that
 ```jade
   +card()
