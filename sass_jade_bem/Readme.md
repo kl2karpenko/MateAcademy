@@ -10,6 +10,7 @@ You need to markup card from UI kit - https://zpl.io/Vx1d67k
   1. Create file `main.scss` in the *src* folder
   2. Also create `_variables.scss` and `_mixins.scss` partials in the *src* folder. Import both of them into *main.scss* file
   3. Create directory *components* in the *src* folder
+  
   3.0 Define colors and texts for buttons in `_variables.scss`
   3.1. Create folder *button* inside components folder, create `_buttons.sass` which describe two types of buttons:
       - design https://zpl.io/2plAnjj
