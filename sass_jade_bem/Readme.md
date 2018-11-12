@@ -35,19 +35,18 @@ You need to markup card from UI kit - https://zpl.io/Vx1d67k
   
   4. Split card implementation to different mixins support such usage:
 ```jade
-  +card()
-    +card-header({
-      title: "Card headline title"
-    })
+  +card
+    +card-header
+      Card headline title
 
-    +card-content()
+    +card-content
       Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo.
 
     +card-footer({
       withDevider: true
     })
       +button({
-        type: "DECLINE!"
+        text: "DECLINE!"
       })
       +button({
         text: "ACCEPT"
