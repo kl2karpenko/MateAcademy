@@ -10,15 +10,14 @@ You need to markup card from UI kit - https://zpl.io/Vx1d67k
   1. Create file `main.scss` in the *src* folder
   2. Also create `_variables.scss` and `_mixins.scss` partials in the *src* folder. Import both of them into *main.scss* file
   3. Create directory *components* in the *src* folder 
-    * 3.0 Define colors and texts for buttons in `_variables.scss`
-    * 3.1. Create folder *button* inside components folder, create `_buttons.sass` which describe two types of buttons:
+      * 3.0 Define colors and texts for buttons in `_variables.scss`
+      * 3.1. Create folder *button* inside components folder, create `_buttons.sass` which describe two types of buttons:
       
-      - design https://zpl.io/2plAnjj
-      - example of implementation - https://material.angular.io/components/button/overview
-      - ripple effect 
-        
-        - css https://codepen.io/rudnitskih/pen/vQKvJa?editors=1100
-        - js https://codepen.io/ayoisaiah/pen/GWwabJ
+        - design https://zpl.io/2plAnjj
+        - example of implementation - https://material.angular.io/components/button/overview
+        - ripple effect:
+            * css https://codepen.io/rudnitskih/pen/vQKvJa?editors=1100
+            * js https://codepen.io/ayoisaiah/pen/GWwabJ
   
   4. Create `button.pug` in the *button* folder with mixin which desribe button
       - how to create jade mixin - https://codepen.io/rudnitskih/pen/GYVQxg
@@ -43,7 +42,7 @@ You need to markup card from UI kit - https://zpl.io/Vx1d67k
       Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo.
 
     +card-footer({
-      withDevider: true
+      withDivider: true
     })
       +button({
         text: "DECLINE!"
