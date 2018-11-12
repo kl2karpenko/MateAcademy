@@ -32,6 +32,7 @@ You need to markup card from UI kit - https://zpl.io/Vx1d67k
   3. Create Card component using BEM notation
     * 3.1 Create `card` mixin which will just looks like required card with hardcoded texts
     * 3.2 Show Show example of card component in `index.pug`
+  
   4. Split card implementation to different mixins support such usage:
 ```jade
   +card()
