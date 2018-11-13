@@ -20,11 +20,15 @@
     agree: true
 };
 ```
-и сохраняем по ссылке /people/:id на условный пока что бэкенд, страница не должна презагружаться
+и сохраняем через PUT /people/:id если это новый Юзер и через POST если такой уже есть (сервер в ответ на PUT вернет вам что юзер уже есть и вам нужно будет сделать еще один запрос POST) на условный пока что бэкенд, страница не должна презагружаться
 2. В нем будет метод для вывода всего списка юзеров что у вас есть
 3. Метод для вывода списка всех пользователей которые есть (список берем из бэкенда по ссылке /people)
 4. При добавлении пользователя через форму в вашем списке из 3 пунка должен появляться новый юзер в конец списка
 5. Добавьте в списке для каждого элемента крестик справа, при нажатии на который юзер будет удаляться из DOM и на бэке (через запрос DELETE /people/:id)
+
+## Server to use for this purpose
+
+Use this repo https://github.com/OlegPalchyk/testNodeServer clone it and follow the instructions. Than after starting server ($npm run dev) you will be able to send requests to this server on the URL='http://localhost:5000' + '/people' or other routes
 
 ### Sample code:
 
