@@ -1,0 +1,8 @@
+.button {
+
+  @include with-ripple($color-1, $color-2);
+
+  &_colored {
+    color: green;
+  }
+}
