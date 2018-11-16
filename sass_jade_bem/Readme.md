@@ -18,9 +18,14 @@ You need to markup card from UI kit - https://zpl.io/Vx1d67k
             * [css](https://codepen.io/rudnitskih/pen/vQKvJa?editors=1100)
             * [js](https://codepen.io/ayoisaiah/pen/GWwabJ)
   4. Create directory `src/examples/buttons.pug`
-  5. Add example of your buttons to `button.pug`.
-  5. Create `index.pug` and include `buttons.pug` into it
-      * 5.1 Don't forget add Roboto font (https://material-ui.com/getting-started/installation/)
+  5. Add example of your buttons to `buttons.pug`.
+```
+button.button Button
+button.button.button_colored(href="//google.com") Colored
+
+```
+  6. Create `index.pug` and include `buttons.pug` into it
+      * 6.1 Don't forget add Roboto font (https://material-ui.com/getting-started/installation/)
   
 ### Level 2
   1. Create mixins which desribes different `box-shadows` - https://zpl.io/VYkEMgp (Create 5 mixins for each level of depth)
@@ -28,10 +33,19 @@ You need to markup card from UI kit - https://zpl.io/Vx1d67k
   3. Include `box-shadows.pug` into `index.pug`
   
 ### Level 3
-  1. Create `components/_card.scss` and describe styles for it.
-  2. Create `src/examples/cards.pug` and markup simple, standard and with-image cards. Describe `margins` beetween elements in  `_examples.scss`. Hint: use https://unsplash.com/ to find an example of image.
+  1. Create `src/examples/cards.pug` and markup standard card. 
+  2. Create `components/_card.scss` and describe styles for it.
   3. Include `cards.pug` into `index.pug`.
-  
+  4. Also describe `simple` and `with-image` modifications. Describe `margins` beetween elements in  `_examples.scss`. Hint: use https://unsplash.com/ to find an example of image.
+```
+.card
+  .card__title Card headline title
+  .card__description Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.
+  .card__footer
+    button.button.card__button MORE INFO…
+    button.button.card__button.card__button_pulled DECLINE
+    button.card__button.button.button-colore ACCEPT
+```
 ### Level 4
   1. Add mixins to add 3 dots in the end of line - https://gist.github.com/plapier/4954935, use it for title in the card
   2. Add mixins which describes breakpoints - https://css-tricks.com/approaches-media-queries-sass/#article-header-id-3
