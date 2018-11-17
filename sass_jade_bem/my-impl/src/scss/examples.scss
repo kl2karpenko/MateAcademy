@@ -1,0 +1,40 @@
+@import "_variables";
+@import "_mixins";
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.box-shadow-box {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin: 30px;
+
+  &_1 {
+    @include box-shadow(1);
+  }
+
+  &_2 {
+    @include box-shadow(2);
+  }
+
+  &_3 {
+    @include box-shadow(3);
+  }
+
+  &_4 {
+    @include box-shadow(4);
+  }
+
+  &_5 {
+    @include box-shadow(5);
+  }
+}
+
+.card-examples {
+  .dr-card {
+    width: 430px;
+    margin: 30px;
+  }
+}

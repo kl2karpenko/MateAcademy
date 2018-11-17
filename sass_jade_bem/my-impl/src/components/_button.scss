@@ -1,0 +1,26 @@
+$flat-hover-color: rgba(0,0,0, 0.04);
+$flat-active-color: rgba(0,0,0, 0.1);
+
+.dr-button {
+  color: $color-1;
+  padding: 9px 49px 7px;
+  font-size: 16px;
+  outline: none;
+  line-height: 1;
+  background: transparent;
+  border: 0;
+  text-transform: uppercase;
+  border-radius: 3px;
+
+  @include common-styles();
+  @include with-ripple($flat-hover-color, $flat-active-color);
+
+  &_colored {
+    color: $color-2;
+  }
+
+  &_narrow {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}

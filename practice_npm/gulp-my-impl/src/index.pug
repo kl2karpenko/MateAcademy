@@ -1,5 +1,3 @@
-include components/button/button
-
 doctype html
 html(lang='en')
     head
@@ -7,21 +5,5 @@ html(lang='en')
       title Title
       link(rel='stylesheet', href='css/all.css')
     body
-        +button({
-          classes: 'button button_colored'
-        }) Button 1
-
-        +button({
-          classes: 'button'
-        }) Button 2
-
-        +button({
-          classes: 'button'
-        }) Button 3
-
-        mixin card
-            .card
-                .card__header Title
-                .card__content Contetn
-
-        +card
+        include examples/buttons/buttons
+        include examples/cards/cards

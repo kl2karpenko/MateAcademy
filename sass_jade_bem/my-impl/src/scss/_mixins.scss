@@ -1,0 +1,39 @@
+@mixin with-ripple($initial-color, $final-volor) {
+  background-position: center;
+  transition: background 0.8s;
+
+  &:hover {
+    background: $initial-color radial-gradient(circle, transparent 1%, $initial-color 1%) center/15000%;
+  }
+
+  &:active {
+    background-color: $final-volor;
+    background-size: 100%;
+    transition: background 0s;
+  }
+}
+
+@mixin box-shadow($depth) {
+  $box-shadow-options: (
+          1: '0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26)',
+          2: '0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 8px 17px 0 rgba(0, 0, 0, 0.2)',
+          3: '0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19)',
+          4: '0 16px 28px 0 rgba(0, 0, 0, 0.24), 0 25px 55px 0 rgba(0, 0, 0, 0.19)',
+          5: '0 27px 24px 0 rgba(0, 0, 0, 0.24), 0 40px 77px 0 rgba(0, 0, 0, 0.19)',
+  );
+
+  box-shadow: unquote(map-get($box-shadow-options, $depth));
+}
+
+@mixin common-styles() {
+  font-family: $font-family;
+  &, * {
+    box-sizing: border-box;
+  }
+}
+
+@mixin ellipsis() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

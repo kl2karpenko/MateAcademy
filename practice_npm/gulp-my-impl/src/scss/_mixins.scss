@@ -3,12 +3,17 @@
     transition: background 0.8s;
 
     &:hover {
-        background: #47a7f5 radial-gradient(circle, transparent 1%, $initial-color 1%) center/15000%;
+        background: $initial-color radial-gradient(circle, transparent 1%, $initial-color 1%) center/15000%;
     }
 
     &:active {
         background-color: $final-volor;
         background-size: 100%;
         transition: background 0s;
-       }
+    }
+}
+
+
+@mixin box-shadow() {
+
 }
