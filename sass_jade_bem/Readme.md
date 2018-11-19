@@ -47,10 +47,7 @@ button.button.button_colored(href="//google.com") Colored
     button.card__button.button.button-colore ACCEPT
 ```
 ### Level 4
-  1. Add mixins to add 3 dots in the end of line - https://gist.github.com/plapier/4954935, use it for title in the card
-  2. Add mixins which describes breakpoints - https://css-tricks.com/approaches-media-queries-sass/#article-header-id-3
-  3. Increase text in `x1.25` on tablet and `x1.33` on mobile in a card component
-
-### Level 5
- 1. Refactor mixins with `box-shadows` to one mixin which accept level of depth in argument   
- 2. Add namespace to all classes
+  1. Add mixins which describes breakpoints - https://css-tricks.com/approaches-media-queries-sass/#article-header-id-3
+  2. Increase text in `x1.25` on tablet and `x1.33` on mobile in a card component
+  3. Refactor mixins with `box-shadows` to one mixin which accept level of depth in argument   
+  4. Add namespace to all classes
