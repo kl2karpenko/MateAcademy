@@ -12,6 +12,8 @@ API: http(s)://5bf417c491c25b0013a3b9a2.mockapi.io
 
 ### Создайте таблицу с пагинацией, сортировкой, удалением и добавлением юзеров.
 
+![owl](https://github.com/kl2karpenko/MateAcademy/blob/master/26/table.png)
+
 ## 1 level
 
 1. В шапке таблицы будут названия полей данных - `name` - `description` - `createdAt` - `email`.
