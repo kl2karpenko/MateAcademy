@@ -9,4 +9,3 @@
 ### Task 2 (Using jQuery UI)
 
 1. Add to the page Slider from jQuery UI - points sohuld start fron 20 till 100. Add an input [type="number"] under the slider, it should get from 20 till 100, if user enters other number it should dissapear and 20 should be shown, if user enters number from 20 till 100 the slider should also be setted by this number.
-2. 
