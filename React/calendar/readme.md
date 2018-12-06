@@ -1,12 +1,11 @@
 ## Create a calendar for a next (2019) year, using React and Bootstrap/Material/Semantic UI for your choise
 
-Main acceptance criteria:
+![Calendar](https://raw.githubusercontent.com/kl2karpenko/MateAcademy/master/React/calendar/cal.png)
 
+## Task
 ### Base Level
 
-1. The UI of calendar should look something like this:
-![Calendar](https://raw.githubusercontent.com/kl2karpenko/MateAcademy/master/React/calendar/cal.png)
-Means that view should be strengthen on all page and it should have a minimum height so it looks good and don't break
+1. The UI of calendar should look based on the picture, means that view should be strengthen on all page and it should have a minimum height so it looks good and don't break
 2. Every cell is a day in a month. You should have a nme of Month and year on the top of the page, and arrows `Back` and `Towards` to change the view and render new month. 
 3. If you month have less days than cells, don't show cells from other month just leave  them empty
 
