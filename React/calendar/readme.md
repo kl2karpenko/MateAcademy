@@ -16,13 +16,15 @@
 
 ### Middle Level
 
-1. Create an ability to add an event to the calendar on click on the day (on click on a cell)
-2. While adding an event you should have a Popup That gives you 3 fields: `date` `name` and `description` of an event
-3. After user click `Add` you add an event to this day and hide the Popup
-4. Add icon of weather to the cells, and add functionality to show User what weather will be on that day based on ajax request to https://openweathermap.org/api API when user clicks on `weather icon`. If the weather is unavailable Make a Default Component with some text like: "WE HAVE NO INFORMATION ABOUT WATHER FOR THIS DAY"
+1. Create a view to a single day.
+2. Add  ability to add an event to the current day when you are on the `Day View` on click on the left side of the day (in the events list)
+2. While adding an event you should have a form on the right side of the page that gives you 3 fields: `date` `name` and `description` of an event
+3. After user click `Add` you add an event to this day and hide form on the right side
+4. On click on existing event, you open the same form on the right with the datail information about the event that was clicked
+5. Add icon of weather to the cells, and add functionality to show User what weather will be on that day based on ajax request to https://openweathermap.org/api API when user clicks on `weather icon`. If the weather is unavailable Make a Default Component with some text like: "WE HAVE NO INFORMATION ABOUT WATHER FOR THIS DAY"
 
 
 ### Advanced Level
 
-1. When User clicks on the special place on the day cell, you can propose the time for an event based on the mouse position in the cell (means if he click lower than the middle it can be 10-12 o'clock and etc.)
-2. If you have events that conflicts with each other by `date` just place them in the one row(level) in the cell
+1. If you have events that conflicts with each other by `date` just place them in the one row(level) in the cell
+2. If user adds event in the same time, check if time in this day is taken and proppose other time with notification (alert) or some modal
