@@ -31,5 +31,5 @@
 
 1. If you have events that conflicts with each other by `date` just place them in the one row(level) in the cell
 2. If user adds event in the same time, check if time in this day is taken and proppose other time with notification (alert) or some modal
-3. Add Drag-And-Drop functionality for the events, to be able to change the vents time table by draggin it in the day cell
+3. Add Drag-And-Drop functionality for the events, to be able to change the events time table by dragg it in the day cell
 4. Add a `REPEAT` select, to add posibility to repeat an event to the other days.
